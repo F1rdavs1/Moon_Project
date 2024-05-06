@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   gap: 48px;
+  gap: 38px;
 }
 
 .navbar {
@@ -51,6 +52,7 @@
   padding: 35px 0;
   color: rgb(255, 255, 255);
   font-family: "Barlow";
+  font-family: Barlow;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -67,10 +69,77 @@
   margin-right: 11px;
   color: rgb(255, 255, 255);
   font-family: "Barlow";
+  font-family: Barlow;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 2.7px;
+}
+
+.space-page {
+  width: 100%;
+  background-image: url(../images/space-bg.png);
+  background-size: 100% 100vh;
+  height: 100vh;
+  background-position: top right;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space__wrapper-left {
+  width: 450px;
+}
+
+.space__wrapper-title {
+  margin-bottom: 15px;
+  color: rgb(208, 214, 249);
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 4.72px;
+}
+
+.space__wrapper-name {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Bellefair;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 172px;
+  letter-spacing: 0px;
+}
+
+.space__wrapper-text {
+  color: rgb(208, 214, 249);
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.space__wrapper-right {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space__right-title {
+  color: rgb(11, 13, 23);
+  font-family: Bellefair;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 2px;
 }
 
 * {
