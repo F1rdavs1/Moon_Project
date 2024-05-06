@@ -1,0 +1,62 @@
+
+.moon-body{
+    background-image: url(../images/moon-body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.moon-header {
+    width: 100%;
+    margin-top: 40px;
+    padding: 24px 0 24px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.moon-nav {
+    width: 830px;
+    position: relative;
+    padding: 0px 165px 0px 123px;
+    backdrop-filter: blur(81.55px);
+    background: rgba(255, 255, 255, 0.04);
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 473px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.25);
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        left: -449px;
+    }
+}
+.moon-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.moon-link{
+    padding: 38px 0;
+    color: #fff;
+    border: 2px solid transparent;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    display: flex;
+    gap: 11px;
+
+    & > span{
+        font-weight: 700;
+    }
+
+    &:hover{
+        border-bottom: 2px solid white;
+    }
+}
